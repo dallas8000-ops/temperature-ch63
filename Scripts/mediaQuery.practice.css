@@ -1,0 +1,50 @@
+/*Desktop View*/
+html"{
+    font-size: 16px;
+}
+body{
+display:  flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+header{
+    backgroung-color: lightgray;
+    width: 100%;
+    height: 30vh;
+}
+div{
+ 
+   p} 
+   width: 80%;
+   fontsize: 1rem; /*1 x16px=16px; */
+  {
+
+  } 
+   background-color: grey;
+    margin: 60px opx;
+    width: 95%;
+    height: 40VH; /* 40% of viewpoint height*/
+}
+
+
+/*Tablet View*/
+@media(())
+    
+}media(())
+
+
+
+
+/*Phone View*/
+@media((min-width:601px)and(max-width:768px))
+html((
+{
+    font-size: 12px;
+    header(
+        background-color: blue;
+
+    )
+}
+))
