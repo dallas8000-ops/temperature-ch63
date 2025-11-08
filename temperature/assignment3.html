@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3: convertTemperature</title>
+    <style>
+        /* Styling for the extra challenge colors */
+        .hot { color: rgb(255, 25, 0); font-weight: bold; }
+        .cold { color: rgb(6, 107, 132); font-weight: bold; }
+        .mild { color: rgb(7, 165, 17); font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Convert Temperature</h1>
+
+    <div>
+        <label for="tempInput">Enter Temperature:</label>
+        <input type="number" id="tempInput" value="32">
+    </div>
+
+    <div>
+        <label for="scaleInput">Target Scale (C or F):</label>
+        <input type="text" id="scaleInput" value="C" maxlength="1">
+    </div>
+
+    <button onclick="performConversion()">Convert</button>
+
+    <hr>
+
+    <h2>Result:</h2>
+    <p id="resultDisplay">Enter a temperature and scale, then click Convert.</p>
+
+    <script src="assignment3.js"></script>
+</body>
+</html>
